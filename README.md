@@ -104,6 +104,75 @@ Administrative tools provide access to administration, audit logs, and shift man
 The reporting module provides financial and operational information including gross collection, net income, fines, discounts, room revenue, parking revenue, advance payments, and checkout collections.
 
 ---
+---
+
+## 🎥 Demo
+
+MMK HMS is demonstrated through the application screenshots included in this repository.
+
+The screenshots cover the primary hotel workflows:
+
+- 🔐 Authentication
+- 📊 Dashboard
+- 📅 Booking
+- 👤 Guest management
+- 🧾 Booking confirmation
+- 💳 Checkout and billing
+- 🛏️ Room status
+- ⚙️ Administration
+- 📈 Reports and analytics
+
+> Production customer information has been anonymized or removed from the publicly shared screenshots.
+
+---
+
+## 📚 Documentation
+
+Technical and project documentation is available in the [`docs/`](docs/) directory.
+
+### Documentation Areas
+
+- 🏗️ Application architecture
+- 📋 Functional modules
+- 🖥️ User interface documentation
+- 📊 Reporting workflows
+- 🔐 Data privacy considerations
+- 🛠️ Development notes
+
+### Project Resources
+
+| Resource | Location |
+|---|---|
+| Screenshots | [`screenshots/`](screenshots/) |
+| Documentation | [`docs/`](docs/) |
+| Architecture | [`docs/`](docs/) |
+| Project README | [`README.md`](README.md) |
+
+---
+
+## 🚀 Project Status
+
+**Status:** Portfolio / Documentation Version
+
+The repository contains the public-facing documentation, interface screenshots, architecture information, and selected project resources for MMK HMS.
+
+Production-specific configuration, credentials, private customer information, and proprietary implementation details are intentionally excluded.
+
+---
+
+## 📌 Important
+
+MMK HMS is an **offline-first desktop hotel management system** designed around local hotel operations.
+
+The public repository is intended to demonstrate the project's:
+
+- Architecture
+- Functionality
+- User interface
+- Technical stack
+- Software development approach
+
+It is **not intended to contain production customer data or confidential deployment configuration**.
 
 ## 🧩 Core Modules
 
