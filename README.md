@@ -43,30 +43,17 @@ The system is designed for hotel staff and administrators who need fast room man
 
 Secure login interface with separate administrator and employee access.
 
----
-
 ### 2. Dashboard
 
 ![MMK HMS Dashboard](screenshots/02-dashboard.png)
 
-The dashboard provides an overview of:
-
-- Available rooms
-- Occupied rooms
-- Maintenance rooms
-- Blacklisted guests
-- Room status overview
-- Quick operational actions
-
----
+The dashboard provides an overview of available rooms, occupied rooms, maintenance rooms, blacklisted guests, room status, and quick operational actions.
 
 ### 3. New Booking
 
 ![MMK HMS Booking](screenshots/03-booking.png)
 
-The booking module allows staff to create reservations with guest information, room selection, check-in details, expected stay, advance payment, and other booking information.
-
----
+The booking module allows staff to create reservations with guest information, room selection, check-in details, expected stay, and advance payment.
 
 ### 4. Guest Directory
 
@@ -74,81 +61,70 @@ The booking module allows staff to create reservations with guest information, r
 
 Guest records can be searched and reviewed from a centralized guest directory.
 
----
-
 ### 5. Booking Confirmation
 
 ![MMK HMS Confirmation](screenshots/05-confirmation.png)
 
-After creating a booking, the system provides a confirmation summary containing booking and payment information that can be printed for the customer.
-
----
+The booking confirmation screen provides booking, guest, room, stay, and payment information that can be printed for the customer.
 
 ### 6. Checkout & Billing
 
 ![MMK HMS Checkout](screenshots/06-checkout.png)
 
-The checkout module calculates the final room charges, payments, discounts, parking charges, and outstanding balance.
-
----
+The checkout module calculates final room charges, payments, discounts, parking charges, and outstanding balance.
 
 ### 7. Room Status Board
 
 ![MMK HMS Room Board](screenshots/07-room-board.png)
 
-A visual room board provides a quick overview of room availability and room status across the property.
-
----
+The visual room board provides a quick overview of room availability and room status across the property.
 
 ### 8. Administration
 
-![MMK HMS Admin](screenshots/08-admin-menu.png)
+![MMK HMS Administration](screenshots/08-admin-menu.png)
 
-Administrative tools provide access to system-level operations such as administration, audit logs, and shift management.
-
----
+Administrative tools provide access to administration, audit logs, and shift management.
 
 ### 9. Reports & Analytics
 
 ![MMK HMS Reports](screenshots/09-reports.png)
 
-The reporting module provides financial and operational information including:
-
-- Gross collection
-- Net income
-- Fine collection
-- Discounts
-- Room revenue
-- Parking revenue
-- Advance payments
-- Checkout collections
+The reporting module provides financial and operational information including gross collection, net income, fines, discounts, room revenue, parking revenue, advance payments, and checkout collections.
 
 ---
 
 ## 🧩 Core Modules
 
 ### Authentication
+
 Role-based access for administrators and employees.
 
 ### Room Management
+
 Manage room availability, occupancy, maintenance status, room types, and room pricing.
 
 ### Booking Management
+
 Create and manage guest bookings with room allocation and stay information.
 
 ### Guest Management
+
 Maintain guest records and retrieve previous guest information.
 
 ### Billing & Checkout
+
 Calculate stay charges, payments, discounts, parking charges, and final balances.
 
 ### Payment Management
+
 Support advance payments and mid-stay/partial payments.
 
 ### Reports
+
 Generate operational and financial reports for selected date ranges.
 
 ### Administration
+
 Manage administrative functions, audit records, and shift-related operations.
 
 ---
@@ -176,7 +152,7 @@ User
  ▼
 ┌─────────────────────────────┐
 │          Angular            │
-│      Frontend / UI          │
+│       Frontend / UI         │
 └──────────────┬──────────────┘
                │
                ▼
@@ -221,11 +197,8 @@ Desktop-based hotel management
 mmk-hms/
 │
 ├── assets/
-│
 ├── demo/
-│
 ├── diagrams/
-│
 ├── docs/
 │
 ├── screenshots/
