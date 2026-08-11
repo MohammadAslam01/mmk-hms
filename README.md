@@ -171,34 +171,38 @@ Manage administrative functions, audit records, and shift-related operations.
 MMK HMS follows an offline-first desktop application architecture.
 
 ```text
-┌──────────────────────────────┐
-│          MMK HMS             │
-│      Desktop Application     │
-└──────────────┬───────────────┘
+User
+ │
+ ▼
+┌─────────────────────────────┐
+│          Angular            │
+│      Frontend / UI          │
+└──────────────┬──────────────┘
                │
                ▼
-┌──────────────────────────────┐
-│           Angular            │
-│       User Interface         │
-└──────────────┬───────────────┘
+┌─────────────────────────────┐
+│          Electron           │
+│       Desktop Runtime       │
+└──────────────┬──────────────┘
                │
                ▼
-┌──────────────────────────────┐
-│          Electron            │
-│      Desktop Runtime         │
-└──────────────┬───────────────┘
+┌─────────────────────────────┐
+│          Node.js            │
+│     Application Services    │
+└──────────────┬──────────────┘
                │
                ▼
-┌──────────────────────────────┐
-│          Node.js             │
-│      Application Services    │
-└──────────────┬───────────────┘
-               │
-               ▼
-┌──────────────────────────────┐
-│           SQLite             │
-│       Local Database         │
-└──────────────────────────────┘
+┌─────────────────────────────┐
+│           SQLite            │
+│       Local Database        │
+└─────────────────────────────┘
+Architecture Overview
+Angular — Provides the application interface and frontend workflows.
+Electron.js — Packages and runs the application as a desktop application.
+Node.js — Handles application-level services and local operations.
+SQLite — Provides local database storage for hotel management data.
+
+The architecture is designed to keep the core hotel management workflow available locally without depending on an online booking service.
 
 💡 Why Offline-First?
 
