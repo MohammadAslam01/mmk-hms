@@ -103,8 +103,7 @@ Administrative tools provide access to administration, audit logs, and shift man
 
 The reporting module provides financial and operational information including gross collection, net income, fines, discounts, room revenue, parking revenue, advance payments, and checkout collections.
 
----
----
+
 
 ## 🎥 Demo
 
