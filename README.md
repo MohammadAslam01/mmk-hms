@@ -1,5 +1,17 @@
 # MMK HMS
 
+<p align="center">
+  <strong>Enterprise Offline Hotel Management System</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Angular-Frontend-red?logo=angular">
+  <img src="https://img.shields.io/badge/Electron-Desktop-blue?logo=electron">
+  <img src="https://img.shields.io/badge/Node.js-Runtime-green?logo=node.js">
+  <img src="https://img.shields.io/badge/SQLite-Database-blue?logo=sqlite">
+  <img src="https://img.shields.io/badge/TypeScript-Language-blue?logo=typescript">
+</p>
+
 ## Enterprise Offline Hotel Management System
 
 MMK HMS is an offline-first hotel management system designed to manage hotel rooms, bookings, guests, billing, payments, reports, and daily hotel operations from a centralized desktop application.
